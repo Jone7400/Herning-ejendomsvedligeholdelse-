@@ -15,3 +15,7 @@ Version 0.1 indeholder en mobilvenlig skal og Supabase magic-link-login. Forretn
 5. Log ind med din eksisterende Supabase-bruger.
 
 **Sikkerhed:** Brug aldrig `service_role` eller secret keys i browseren. Opret separate `hev_`-tabeller med RLS og privat storage før du gemmer kunder, kvitteringer eller fakturaer. Login alene sikrer ikke adgangskontrol.
+
+
+## v0.2
+Magic link bruger implicit flow, så login kan afsluttes fra e-mail i Safari. Anmod om et nyt link efter opdatering.
