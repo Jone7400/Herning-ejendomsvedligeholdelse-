@@ -1,0 +1,1 @@
+Version 1.6.0: Erstat index.html på GitHub. Ingen SQL. Kvitteringsaflæsning kræver internet første gang for Tesseract.js og dansk sprogmodel. Billeder behandles lokalt i browseren, men uploades til privat Supabase Storage, når du gemmer. Kontrollér altid moms og beløb. PDF OCR ikke understøttet.
